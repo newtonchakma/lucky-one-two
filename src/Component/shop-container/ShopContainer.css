@@ -8,3 +8,8 @@
     gap:40px;
 
 }
+.cart-container{
+    background-color: rgb(189, 180, 159);
+    position:sticky;
+    top: 0;
+}

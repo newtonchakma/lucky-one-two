@@ -8,8 +8,11 @@ const ShopContainer = () => {
      fetch('data.json')
      .then(response => response.json())
      .then(data => setShoes(data))
- },[])
-  
+ },[]);
+
+ const evenHandleAddToCart=(shoe)=>{
+    console.log(shoe);
+}
     return (
         <div className="shop-container">
             <div className="shoes-container">
@@ -18,17 +21,13 @@ const ShopContainer = () => {
                     shoes.map(shoe=> <Shoe 
                     key={shoe.id}
                     shoe={shoe}
+                    evenHandleAddToCart={evenHandleAddToCart}
                     ></Shoe>)
                 }
-     {/*            {
-        shoes.map(shoe=><Shoe 
-            key={shoe.id}
-            shoe={shoe}
-            ></Shoe>)
-     }  */}
+    
             </div>
             <div className="cart-container">
-                <h1>this is cart</h1>
+               
             </div>
         </div>
     );
