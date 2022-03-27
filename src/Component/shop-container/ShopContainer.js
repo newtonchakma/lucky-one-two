@@ -30,14 +30,22 @@ const ShopContainer = () => {
     
             </div>
             <div className="cart-container">
-               <h1>sellect cart</h1>
+               <h1>sellect items</h1>
               <div>
                   {
-                      cart.map((item) => (
-                        <h2 key={item.id}>name: {item.name}</h2>
+                      cart.slice(0,4).map((item) => (
+                        <h2 className="cart-item" key={item.id}> {item.name}</h2>
                       ))
                   }
               </div>
+             <div className="cart-btn">
+             <button className='rendom-btn'>
+              rendom sellect
+              </button>
+              <button className='rendom-btn'>
+              reset
+              </button>
+             </div>
             </div>
         </div>
     );
