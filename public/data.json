@@ -1,0 +1,59 @@
+[
+    {
+      "id": "1",
+      "name": "barrett-ward",
+      "picture": "./shoes/barrett-ward.jpg",
+      "price": 239
+    },
+    {
+      "id": "2",
+      "name": "daniel-storek",
+      "picture": "./shoes/daniel-storek.jpg",
+      "price":450
+    },
+    {
+      "id": "3",
+      "name": "hamza",
+      "picture": "./shoes/hamza.jpg",
+      "price":300
+    },
+    {
+      "id": "4",
+      "name":"linda-ux",
+      "picture": "./shoes/linda-xu.jpg",
+      "price":579
+    
+    },
+    {
+        "id": "5",
+        "name":"luis-felipe-lins",
+        "picture": "./shoes/luis-felipe-lins.jpg",
+        "price":743
+      
+    },
+    {
+        "id": "6",
+        "name":"matthew-dagelet",
+        "picture": "./shoes/matthew-dagelet.jpg",
+        "price": 456
+     
+    },
+    {
+        "id": "7",
+        "name":"solesavy",
+        "picture": "./shoes/solesavy.jpg",
+        "price":340
+    },
+    {
+        "id": "8",
+        "name":"trendest-studio",
+        "picture": "./shoes/trendest-studio.jpg",
+        "price":340
+    },
+    {
+        "id": "9",
+        "name":"trendest-studio",
+        "picture": "./shoes/trendest-studio.jpg",
+        "price":340
+    }
+  ]
